@@ -1,0 +1,98 @@
+* {
+    outline: 2px solid tomato;
+  }
+body {
+    font-family: Roboto;
+    margin: 0px;
+    overflow: none;
+}
+footer {
+    background-color: #2F303A;
+}
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+h1, h2, h3 {
+    margin: 0px;
+}
+.link a {
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    @include for-size(tablet-portrait) {
+        width: 480px;
+    }
+    @include for-size(tablet-landscape) {
+        width: 768px;
+    }
+    @include for-size(desktop) {
+        width: 1200px;
+    }
+}
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.subtitle-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+
+    color: var(--text-subtitle-color);
+}
+.container-portfolio {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 95px;
+    padding-top: 50px;
+
+    @include for-size(tablet-portrait) {
+        width: 450px;
+    }
+    @include for-size(tablet-landscape) {
+        width: 768px;
+    }
+    @include for-size(desktop) {
+        width: 1200px;
+    }
+}
+.comand {
+    background: #F5F4FA;
+
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+.project {
+    background-color: #FFFFFF;
+
+    padding-bottom: 95px;
+}
+.icon-section {
+    background-color: #FFFFFF;
+
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+.costomer {
+    background-color: #FFFFFF;
+
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
