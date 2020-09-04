@@ -1,26 +1,66 @@
 .hero {
     background: #F5F4FA;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../picture/jpg/phon-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1600px;
-    height: 600px;
-
+        @include for-size(tablet-portrait) {
+            height: 400px;
+            width: 480px;
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../picture/jpg/mobile-header-img.jpg)
+        }
+        @include for-size(tablet-landscape){
+            height: 400px;
+            width: 768px;
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../picture/jpg/tablet-header-img.jpg)
+        }
+        @include for-size(desktop){
+            height: 600px;
+            width: 1600px;
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../picture/jpg/phon-header.jpg);
+        }
+}
+.hero-2 {
+    @include for-size(tablet-portrait){
+        width: 480px;
+        height: 400px;
+    }
+    @include for-size(tablet-landscape) {
+        width: 768px;
+        height: 400px;
+    }
+    @include for-size(desktop) {
+        height: 600px;
+        width: 1600px;
+    }
 }
 .efect-title {
-    width: 695px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 200px;
 
     font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
 
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
+
+    @include for-size(tablet-portrait) {
+        width: 360px;
+        padding-top: 120px;
+        text-align: center;
+        font-size: 26px;
+        line-height: 42px;
+    }
+    @include for-size(tablet-landscape) {
+        width: 360px;
+        font-size: 26px;
+        line-height: 42px;
+    }
+    @include for-size(desktop) {
+        width: 695px;
+        padding-top: 200px;
+        font-size: 44px;
+        line-height: 60px;
+    }
 }

@@ -1,8 +1,17 @@
 .icon-style .icon {
+    background-color: #F5F4FA;
     width: 70px;
     height: 70px;
-    background-color: #F5F4FA;
+    
+    @include for-size(tablet-portrait) {
+        padding: 25px 190px;
+    }
+    @include for-size(tablet-landscape){
+        padding: 25px 142px;
+    }
+    @include for-size(desktop) {
     padding: 25px 100px;
+}
 }
 .list-soc {
     display: flex;
@@ -38,15 +47,29 @@
     fill: #FFFFFF;
     background-color:#2196F3 ;
 }
-.item .svg-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 170px;
-    height: 90px;
+.item {
+        box-sizing: border-box;
+        .svg-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-    fill: #AFB1B8;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            fill: #AFB1B8;
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+            @include for-size(tablet-portrait) {
+                width: 210px;
+                height: 90px;
+            }
+            @include for-size(tablet-landscape) {
+                width: 226px;
+                height: 90px;
+            }
+            @include for-size(desktop) {
+            width: 170px;
+            height: 90px;
+        }
+    }
 }
 .list-сustomer .item:hover .svg-icon {
     fill:#2196F3;

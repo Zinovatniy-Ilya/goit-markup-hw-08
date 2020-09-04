@@ -3,6 +3,12 @@
     border: none;
     display: flex;
     justify-content: space-between;
+
+    @include for-size(tablet-portrait) {
+        flex-wrap: wrap;
+    }
+    @include for-size(desktop) {
+    }
 }
 .list-сustomer .item {
     margin-top: 50px;

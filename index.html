@@ -40,8 +40,8 @@
                 </div>
         </nav>
     </header>
-    <!-- <main class="link">
-            hero
+    <main class="link">
+            <!-- hero -->
             <section class="hero">
                 <div class="hero-2">
                     <h1 class="efect-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
@@ -50,7 +50,7 @@
                     </div>
                 </div>
             </section>
-            иконки
+            <!-- иконки -->
             <section class="icon-section">
                 <div class="container">
                     <ul class="icon-style">
@@ -85,7 +85,7 @@
                     </ul>
                 </div>
             </section>
-            Занятия
+            <!-- Занятия -->
             <section class="project">
                 <div class="container">
                     <h2 class="section-title">Чем мы занимаемся</h2>
@@ -96,14 +96,20 @@
                     </ul>
                 </div>
             </section>
-            Команда
+            <!-- Команда -->
             <section class="comand">
                     <div class="container">
                         <div class="section-comand">
                             <h2 class="section-title">Наша команда</h2>
                             <ul class="comand-list">
-                                <li class="item-border"> <img src="./picture/people/igor-1.jpg" width="270px" height="260px" alt="Николай Кучеренко">
-                                    <h3 class="contact-subtitle">Игорь Демьяненко</h3>
+                                <li class="item-border">
+                                    <picture>
+                                        <source srcset="./picture/people/desktop/1.jpg 1x, ./picture/people/desktop/1-img@2x.jpg 2x" media="(min-width:1200px"/>
+                                        <source srcset="./picture/people/tablet/1.jpg 1x, ./picture/people/tablet/1-img@2x.jpg 2x" media="(min-width:768px"/>
+                                        <source srcset="./picture/people/mobile/1.jpg 1x, ./picture/people/mobile/1-img@2x.jpg 2x" media="(min-width:480px"/>
+                                        <img src="./picture/people/desktop/1.jpg" alt="Николай Кучеренко">
+                                    </picture> 
+                                        <h3 class="contact-subtitle">Игорь Демьяненко</h3>
                                         <p class="contact-text">Product Designer</p>
                                             <ul class="list-soc">
                                                 <li class="item">
@@ -136,7 +142,13 @@
                                                 </li>
                                             </ul>
                                 </li>
-                                <li class="item-border"> <img src="./picture/people/mihail-1.jpg" width="270px" height="260px" alt="Ольга Ивановна">
+                                <li class="item-border"> 
+                                    <picture>
+                                        <source srcset="./picture/people/desktop/2.jpg 1x, ./picture/people/desktop/2-img@2x.jpg 2x" media="(min-width:1200px"/>
+                                        <source srcset="./picture/people/tablet/2.jpg 1x, ./picture/people/tablet/2-img@2x.jpg 2x" media="(min-width:768px"/>
+                                        <source srcset="./picture/people/mobile/2.jpg 1x, ./picture/people/mobile/2-img@2x.jpg 2x" media="(min-width:480px"/>
+                                        <img src="./picture/people/desktop/2.jpg" alt="Ольга Ивановна">
+                                    </picture> 
                                     <h3 class="contact-subtitle">Ольга Репина</h3>
                                         <p class="contact-text">Frontend Developer</p>
                                         <ul class="list-soc">
@@ -170,7 +182,14 @@
                                             </li>
                                         </ul>
                                 </li>
-                                <li class="item-border"> <img src="./picture/people/nikolai-1.jpg" width="270px" height="260px" alt="Андрей Шевченко">
+                                <li class="item-border">
+                                    <picture>
+                                        <source srcset="./picture/people/desktop/3.jpg 1x, ./picture/people/desktop/3-img@2x.jpg 2x" media="(min-width:1200px"/>
+                                        <source srcset="./picture/people/tablet/3.jpg 1x, ./picture/people/tablet/3-img@2x.jpg 2x" media="(min-width:768px"/>
+                                        <source srcset="./picture/people/mobile/3.jpg 1x, ./picture/people/mobile/3-img@2x.jpg 2x" media="(min-width:480px"/>
+                                        <img src="./picture/people/desktop/3.jpg" alt="Андрей Шевченко"> 
+                                    </picture>
+                                    
                                     <h3 class="contact-subtitle">Николай Тарасов</h3>
                                         <p class="contact-text">Marketing</p>
                                         <ul class="list-soc">
@@ -204,7 +223,13 @@
                                             </li>
                                         </ul>
                                 </li>
-                                <li class="item-border"> <img src="./picture/people/olga-1.jpg" width="270px" height="260px" alt="Иван Николаев">
+                                <li class="item-border"> 
+                                    <picture>
+                                        <source srcset="./picture/people/desktop/4.jpg 1x, ./picture/people/desktop/4-img@2x.jpg 2x" media="(min-width:1200px"/>
+                                        <source srcset="./picture/people/tablet/4.jpg 1x, ./picture/people/tablet/4-img@2x.jpg 2x" media="(min-width:768px"/>
+                                        <source srcset="./picture/people/mobile/4.jpg 1x, ./picture/people/mobile/4-img@2x.jpg 2x" media="(min-width:480px"/>
+                                        <img src="./picture/people/desktop/4.jpg" alt="Иван Николаев">
+                                    </picture>
                                     <h3 class="contact-subtitle">Михаил Ермаков</h3>
                                         <p class="contact-text">UI Designer</p>
                                         <ul class="list-soc">
@@ -242,7 +267,7 @@
                         </div>
                     </div>
             </section>
-            клиенты
+            <!-- клиенты -->
             <section class="costomer">
                 <div class="container">
                     <h2 class="section-title">Постоянные клиенты</h2>
@@ -295,52 +320,54 @@
     </main>
     <footer class="link footer">
         <div class="container footer-list">
-            <div class="footer-section">
-                <a href=""><span class="web-logo"><span style="color:#2196F3;">Web</span><span style="color:#FFFFFF;">Studio</span></span></a>
-                    <address>
-                        <ul class="footer-adress">
-                            <li class="item">г. Киев, пр-т Леси Украинки, 26</li>
-                            <li class="item"><a href="mailto:info@devstudio.com"><span class="contact">info@example.com</span></a></li>
-                            <li class="item"><a href="tel:+380961111111"><span class="contact">+38 099 111 11 11</span></a></li>
+            <div style="display:flex">
+                <div class="footer-section">
+                    <a href=""><span class="web-logo"><span style="color:#2196F3;">Web</span><span style="color:#FFFFFF;">Studio</span></span></a>
+                        <address>
+                            <ul class="footer-adress">
+                                <li class="item">г. Киев, пр-т Леси Украинки, 26</li>
+                                <li class="item"><a href="mailto:info@devstudio.com"><span class="contact">info@example.com</span></a></li>
+                                <li class="item"><a href="tel:+380961111111"><span class="contact">+38 099 111 11 11</span></a></li>
+                            </ul>
+                        </address>
+                </div>
+                <div class="footer-soc">
+                    <h3 class="subtitle-text" style="color: #FFFFFF;">ПРИСОЕДИНЯЙТЕСЬ</h3>
+                        <ul class="list-soc">
+                            <li class="item">
+                                <a href="" class="icon-footer">
+                                    <svg class="icon">
+                                        <use href="./picture/svg/sprite.svg#instagram" ></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="" class="icon-footer">
+                                    <svg class="icon">
+                                        <use href="./picture/svg/sprite.svg#twitter" ></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="" class="icon-footer">
+                                    <svg class="icon">
+                                        <use href="./picture/svg/sprite.svg#facebook" ></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="" class="icon-footer">
+                                    <svg class="icon">
+                                        <use href="./picture/svg/sprite.svg#linkedin" ></use>
+                                    </svg>
+                                </a>
+                            </li>
                         </ul>
-                    </address>
-            </div>
-            <div class="footer-soc">
-                <h3 class="subtitle-text" style="color: #FFFFFF;">ПРИСОЕДИНЯЙТЕСЬ</h3>
-                    <ul class="list-soc">
-                        <li class="item">
-                            <a href="" class="icon-footer">
-                                <svg class="icon">
-                                    <use href="./picture/svg/sprite.svg#instagram" ></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="item">
-                            <a href="" class="icon-footer">
-                                <svg class="icon">
-                                    <use href="./picture/svg/sprite.svg#twitter" ></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="item">
-                            <a href="" class="icon-footer">
-                                <svg class="icon">
-                                    <use href="./picture/svg/sprite.svg#facebook" ></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="item">
-                            <a href="" class="icon-footer">
-                                <svg class="icon">
-                                    <use href="./picture/svg/sprite.svg#linkedin" ></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
+                </div>
             </div>
             <div class="footer-link">
                 <h3 class="subtitle-text">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
-                <div style="display:flex;">
+                <div class="form-flex-footer">
                     <form>
                         <input class="form-footer" type="email" name="email" id="email" placeholder="E-mail" autocomplete="off">
                     </form>
@@ -399,7 +426,7 @@
                 </div>
             </form>
         </div>
-    </div> -->
+    </div>
     <script src="./js/modal.js"></script>
 </body>
 </html>
