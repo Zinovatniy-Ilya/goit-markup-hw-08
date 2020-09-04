@@ -1,4 +1,40 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("../../shrift/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  src: url("../../shrift/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url("../../shrift/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 900;
+  src: url("../../shrift/Roboto-Black.ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 700;
+  src: url("../../shrift/Raleway-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 900;
+  src: url("../../shrift/Raleway-Black.ttf");
+}
+
 .form-title {
   margin-bottom: 12px;
   margin-top: 40px;
@@ -521,42 +557,6 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   color: currentColor;
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-weight: 400;
-  src: url("../../shrift/Roboto-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-weight: 500;
-  src: url("../../shrift/Roboto-Medium.ttf");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-weight: 700;
-  src: url("../../shrift/Roboto-Bold.ttf");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-weight: 900;
-  src: url("../../shrift/Roboto-Black.ttf");
-}
-
-@font-face {
-  font-family: "Raleway";
-  font-weight: 700;
-  src: url("../../shrift/Raleway-Bold.ttf");
-}
-
-@font-face {
-  font-family: "Raleway";
-  font-weight: 900;
-  src: url("../../shrift/Raleway-Black.ttf");
 }
 
 .img-portfolio {
