@@ -571,37 +571,37 @@
 @font-face {
   font-family: "Roboto";
   font-weight: 400;
-  src: url("../../shrift/Roboto-Regular.ttf");
+  src: url("../shrift/Roboto-Regular.ttf");
 }
 
 @font-face {
   font-family: "Roboto";
   font-weight: 500;
-  src: url("../../shrift/Roboto-Medium.ttf");
+  src: url("../shrift/Roboto-Medium.ttf");
 }
 
 @font-face {
   font-family: "Roboto";
   font-weight: 700;
-  src: url("../../shrift/Roboto-Bold.ttf");
+  src: url("../shrift/Roboto-Bold.ttf");
 }
 
 @font-face {
   font-family: "Roboto";
   font-weight: 900;
-  src: url("../../shrift/Roboto-Black.ttf");
+  src: url("../shrift/Roboto-Black.ttf");
 }
 
 @font-face {
   font-family: "Raleway";
   font-weight: 700;
-  src: url("../../shrift/Raleway-Bold.ttf");
+  src: url("../shrift/Raleway-Bold.ttf");
 }
 
 @font-face {
   font-family: "Raleway";
   font-weight: 900;
-  src: url("../../shrift/Raleway-Black.ttf");
+  src: url("../shrift/Raleway-Black.ttf");
 }
 
 .text-project {
