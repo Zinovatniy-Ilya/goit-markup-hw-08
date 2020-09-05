@@ -17,12 +17,18 @@
     .item {
         @include for-size(tablet-portrait) {
             width: 450px;
+            margin-right: auto;
+            margin-left: auto;
         }
         @include for-size(tablet-landscape) {
             width: 354px;
+            margin-right: auto;
+            margin-left: auto;
         }
         @include for-size(desktop) {
             width: 270px;
+            margin-right: auto;
+            margin-left: auto;
         }
         .subtitle-text {
             margin-top: 30px;
@@ -44,9 +50,7 @@
     line-height: 24px;
     letter-spacing: 0.03em;
 
-    color: var(--icon-text);
-
     @include for-size(desktop) {
-        text-align: center;
+        // text-align: center;
     }
 }

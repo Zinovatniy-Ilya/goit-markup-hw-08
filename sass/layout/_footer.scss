@@ -6,13 +6,24 @@
 }
 .footer-list {
     align-items: center;
-
-    @include for-size(desktop) {
+    @include for-size(tablet-landscape) {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
+    @include for-size(desktop) {
+            display: flex;
+            justify-content: space-between;
+    }
+}
+.footer-tablet {
+    display: flex; 
+    justify-content: space-between;
 }
 .footer-section {
+    @include for-size(tablet-landscape){
+        margin-left: 80px;
+    }
         .web-logo {
     @include for-size(tablet-portrait) {
         display: flex;
@@ -60,8 +71,17 @@
     font-style: normal;
 }
 .footer-soc {
-        margin-top: 60px;
-        margin-bottom: 60px;
+        @include for-size(tablet-portrait) {
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+        @include for-size(tablet-landscape) {
+            margin-top: 5px;
+            margin-right: 80px;
+        }
+        @include for-size(desktop) {
+            margin: 0px;
+        }
     .subtitle-text {
         @include for-size(tablet-portrait) {
             display: flex;
@@ -104,6 +124,28 @@
     margin-right: 0px;
 }
 .footer-link {
+        @include for-size(tablet-portrait) {
+            width: 450px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        @include for-size(tablet-landscape) {
+            margin-top: 60px;
+            width: 450px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        @include for-size(tablet-landscape) {
+            margin: 0px;
+            width: 450px;
+            margin-top: 60px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @include for-size(desktop){
+            width: 520px;
+            margin: 0;
+        }
     .subtitle-text {
         @include for-size(tablet-portrait) {
             display: flex;
@@ -116,6 +158,9 @@
     }
 }
 .form-flex-footer {
+    @include for-size(tablet-portrait) {
+        width: 450px;
+    }
     @include for-size(desktop) {
         display: flex;
     }

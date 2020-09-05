@@ -1,6 +1,6 @@
-* {
-    outline: 2px solid tomato;
-  }
+// * {
+//     outline: 2px solid tomato;
+//   }
 body {
     font-family: Roboto;
     margin: 0px;
@@ -22,13 +22,13 @@ h1, h2, h3 {
 }
 .container {
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    // padding-left: 15px;
+    // padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     
     @include for-size(tablet-portrait) {
-        width: 450px;
+        width: 480px;
     }
     @include for-size(tablet-landscape) {
         width: 768px;
@@ -39,11 +39,17 @@ h1, h2, h3 {
 }
 .section-title{
     font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    @include for-size(tablet-portrait) {
+        font-size: 28px;
+        line-height: 33px;
+    }
+    @include for-size(desktop) {
+        font-size: 36px;
+        line-height: 42px;
+    }
 }
 .subtitle-text {
     font-weight: 700;

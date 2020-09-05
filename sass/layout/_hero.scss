@@ -4,15 +4,17 @@
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
+    // padding-left: 15px;
+    // padding-right: 15px;
         @include for-size(tablet-portrait) {
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../picture/jpg/mobile-header-img.jpg);
             height: 400px;
             width: 480px;
-            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../picture/jpg/mobile-header-img.jpg)
         }
         @include for-size(tablet-landscape){
             height: 400px;
             width: 768px;
-            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../picture/jpg/tablet-header-img.jpg)
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../picture/jpg/tablet-header-img.jpg);
         }
         @include for-size(desktop){
             height: 600px;
