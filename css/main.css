@@ -2036,6 +2036,12 @@ body {
   overflow: none;
 }
 
+@media (min-width: 768px) {
+  body {
+    overflow-x: scroll;
+  }
+}
+
 footer {
   background-color: #2F303A;
 }
