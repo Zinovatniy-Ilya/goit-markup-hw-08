@@ -17,6 +17,16 @@
         }
     
         .item-border {
+        @include for-size(phone-only) {
+            width: 290px;
+            margin-bottom: 30px;
+            margin-right: auto;
+            margin-left: auto;
+            
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
         @include for-size(tablet-portrait){
             width: 450px;
             margin-right: auto;

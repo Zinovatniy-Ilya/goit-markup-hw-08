@@ -6,6 +6,9 @@
     display: flex;
     align-items: center;
 
+    @include for-size(phone-only) {
+        width: 320px;
+    }
     @include for-size(tablet-portrait) {
         width: 480px;
     }
@@ -66,11 +69,15 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .auth-nav {
+    @include for-size(phone-only) {
+        display: none;
+    }
     @include for-size(tablet-portrait) {
         display: none;
     }
     @include for-size(tablet-landscape) {
         display: block;
+        padding-right: 15px;
     }
     margin-left: auto;
 
@@ -100,6 +107,14 @@
     margin-right: 0px;
 }
 .list-line {
+    @include for-size(phone-only) {
+        display: none;
+        // display: flex;
+        width: 100px;
+        // display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
     @include for-size(tablet-portrait) {
         display: none;
         // display: flex;
@@ -189,8 +204,6 @@
     position: absolute;
     top: 100%;
     // left: 0;
-    width: 480px;
-    height: 450px;
     box-sizing: border-box;
     background-color: #ffffff;
     // padding: 60px 0;
@@ -201,6 +214,14 @@
     letter-spacing: 0.02em;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
 
+    @include for-size(phone-only) {
+        width: 320px;
+        height: 450px;
+    }
+    @include for-size(tablet-portrait) {
+        width: 480px;
+        height: 450px;
+    }
     @include for-size(tablet-landscape) {
         display: none;
     }

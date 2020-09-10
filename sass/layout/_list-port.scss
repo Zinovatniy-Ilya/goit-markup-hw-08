@@ -14,6 +14,9 @@
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
 
+    @include for-size(phone-only) {
+        width: 290px;
+    }
     @include for-size(tablet-landscape) {
         width: 354px;
     }

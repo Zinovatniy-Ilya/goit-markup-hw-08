@@ -17,6 +17,9 @@
     width: 370px;
     margin-right: auto;
     margin-left: auto;
+    @include for-size(phone-only) {
+        width: 280px;
+    }
     @include for-size(desktop) {
     width: 450px;
     }
@@ -27,7 +30,10 @@
     border-radius: 4px;
     padding: 10px 40px;
 
-
+    @include for-size(phone-only) {
+        width: 280px;
+        height: 40px;
+    }
     @include for-size(tablet-portrait) {
         width: 370px;
         height: 40px;
@@ -125,6 +131,12 @@
     align-items: center;
     border-radius: 2px;
     justify-content: center;
+
+    @include for-size(phone-only) {
+        width: 260px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 .form-coment {
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -135,6 +147,9 @@
     height: 120px;
     width: 370px;
 
+    @include for-size(phone-only) {
+        width: 280px;
+    }
     @include for-size(desktop) {
         width: 450px;
     }
@@ -155,6 +170,9 @@
     border-radius: 4px;
     color:#FFFFFF;
 
+    @include for-size(phone-only) {
+        width: 290px;
+    }
     @include for-size(tablet-portrait) {
         width: 450px;
     }

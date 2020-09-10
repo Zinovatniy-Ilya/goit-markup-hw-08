@@ -4,8 +4,19 @@
     display: flex;
     justify-content: space-between;
 
+    @include for-size(phone-only) {
+        box-sizing: border-box;
+        width: 202px;
+        margin-right: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     @include for-size(tablet-portrait) {
         flex-wrap: wrap;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     @include for-size(desktop) {
     }

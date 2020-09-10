@@ -3,6 +3,9 @@
     width: 70px;
     height: 70px;
     
+    @include for-size(phone-only) {
+        padding: 25px 110px;
+    }
     @include for-size(tablet-portrait) {
         padding: 25px 190px;
     }
@@ -102,6 +105,10 @@
             fill: #AFB1B8;
             transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+            @include for-size(phone-only) {
+                width: 170px;
+                height: 90px;
+            }
             @include for-size(tablet-portrait) {
                 width: 210px;
                 height: 90px;

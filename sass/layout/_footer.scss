@@ -1,5 +1,4 @@
 
-
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -25,6 +24,12 @@
         margin-left: 80px;
     }
         .web-logo {
+
+    @include for-size(phone-only) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     @include for-size(tablet-portrait) {
         display: flex;
         justify-content: center;
@@ -40,6 +45,11 @@
     margin-top: 20px;
 }
 .footer-adress .item {
+    @include for-size(phone-only) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     @include for-size(tablet-portrait) {
         display: flex;
         justify-content: center;
@@ -71,6 +81,10 @@
     font-style: normal;
 }
 .footer-soc {
+        @include for-size(phone-only) {
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
         @include for-size(tablet-portrait) {
             margin-top: 60px;
             margin-bottom: 60px;
@@ -83,6 +97,11 @@
             margin: 0px;
         }
     .subtitle-text {
+        @include for-size(phone-only) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         @include for-size(tablet-portrait) {
             display: flex;
             justify-content: center;
@@ -124,6 +143,11 @@
     margin-right: 0px;
 }
 .footer-link {
+        @include for-size(phone-only) {
+            width: 290px;
+            margin-right: auto;
+            margin-left: auto;
+        }
         @include for-size(tablet-portrait) {
             width: 450px;
             margin-right: auto;
@@ -147,6 +171,11 @@
             margin: 0;
         }
     .subtitle-text {
+        @include for-size(phone-only) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         @include for-size(tablet-portrait) {
             display: flex;
             justify-content: center;
@@ -158,6 +187,9 @@
     }
 }
 .form-flex-footer {
+    @include for-size(phone-only) {
+        width: 290px;
+    }
     @include for-size(tablet-portrait) {
         width: 450px;
     }

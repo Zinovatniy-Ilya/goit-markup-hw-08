@@ -3,6 +3,12 @@
 
     padding-top: 95px;
     padding-bottom: 95px;
+
+    @include for-size(phone-only) {
+        width: 320px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 .icon-style {
     justify-content: space-between;
@@ -15,6 +21,16 @@
     }
 
     .item {
+        @include for-size(phone-only) {
+            width: 290px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 10px;
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
         @include for-size(tablet-portrait) {
             width: 450px;
             margin-right: auto;

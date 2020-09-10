@@ -1,6 +1,12 @@
 .header-menu {
     .list-line .item {
         position: relative;
+        
+        @include for-size(phone-only) {
+            box-sizing: border-box;
+            margin-top: 60px;
+            padding-bottom: 8px;
+        }
         @include for-size (tablet-portrait) {
             // width: 100%;
             box-sizing: border-box;
@@ -57,6 +63,12 @@
         margin-right: 0px;
     }
     .list-line {
+        @include for-size(phone-only) {
+            width: 80px;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
         @include for-size(tablet-portrait) {
             width: 100px;
             display: block;

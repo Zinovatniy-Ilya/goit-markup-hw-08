@@ -24,6 +24,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
+    @include for-size(phone-only) {
+        width: 290px;
+    }
     @include for-size(desktop) {
         width: 530px;
         min-height: 580px;

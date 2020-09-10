@@ -33,6 +33,13 @@
     color: #FFFFFF;
     cursor: pointer;
 
+    @include for-size(phone-only) {
+        box-sizing: border-box;
+        width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+    }
     @include for-size(tablet-portrait) {
         box-sizing: border-box;
         width: 200px;
@@ -76,6 +83,10 @@
 
     color: #FFFFFF;
     cursor: pointer;
+
+    @include for-size(phone-only) {
+        margin-bottom: 15px;;
+    }
 }
 .portfolio-button {
     background-color: #FFFFFF;
@@ -84,6 +95,9 @@
     margin-left: auto;
     margin-right: auto;
 
+    @include for-size(phone-only) {
+        width: 290px;
+    }
     @include for-size(tablet-portrait) {
         width: 380px;
     }

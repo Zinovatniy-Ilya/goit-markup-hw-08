@@ -1,40 +1,33 @@
 .hero {
-    background: #F5F4FA;
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    // height: 400px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgba(47,48,58,0.8);
+    background-position: center;
+    background-size: cover;
     // padding-left: 15px;
     // padding-right: 15px;
-        @include for-size(tablet-portrait) {
+        // @include for-size(tablet-portrait) {
             background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../picture/jpg/mobile-header-img.jpg);
-            height: 400px;
-            width: 480px;
-        }
+            // height: 400px;
+            // width: 480px;
+        // }
         @include for-size(tablet-landscape){
-            height: 400px;
-            width: 768px;
+            // height: 400px;
+            // width: 768px;
             background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../picture/jpg/tablet-header-img.jpg);
         }
         @include for-size(desktop){
-            height: 600px;
-            width: 1600px;
+            // height: 600px;
+            // width: 1600px;
+            // overflow: hidden;
             background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../picture/jpg/phon-header.jpg);
+            padding-top: 200px;
+            padding-bottom: 200px;
         }
-}
-.hero-2 {
-    @include for-size(tablet-portrait){
-        width: 480px;
-        height: 400px;
-    }
-    @include for-size(tablet-landscape) {
-        width: 768px;
-        height: 400px;
-    }
-    @include for-size(desktop) {
-        height: 600px;
-        width: 1600px;
-    }
 }
 .efect-title {
     margin-left: auto;
@@ -49,7 +42,7 @@
 
     @include for-size(tablet-portrait) {
         width: 360px;
-        padding-top: 120px;
+        // padding-top: 120px;
         text-align: center;
         font-size: 26px;
         line-height: 42px;
@@ -61,7 +54,7 @@
     }
     @include for-size(desktop) {
         width: 695px;
-        padding-top: 200px;
+        // padding-top: 200px;
         font-size: 44px;
         line-height: 60px;
     }
