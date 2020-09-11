@@ -4,11 +4,7 @@
 body {
     font-family: Roboto;
     margin: 0px;
-    overflow: none;
-
-    @include for-size(tablet-landscape) {
-        overflow-x: hidden;
-    }
+    overflow-x: hidden;
 }
 footer {
     background-color: #2F303A;
