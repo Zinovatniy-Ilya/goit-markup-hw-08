@@ -7,7 +7,7 @@ body {
     overflow: none;
 
     @include for-size(tablet-landscape) {
-        overflow-x: scroll;;
+        overflow-x: hidden;
     }
 }
 footer {
