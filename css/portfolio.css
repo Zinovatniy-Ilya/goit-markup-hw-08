@@ -1751,10 +1751,6 @@
   background-repeat: no-repeat;
 }
 
-* {
-  outline: 2px solid tomato;
-}
-
 body {
   font-family: Roboto;
   margin: 0px;
