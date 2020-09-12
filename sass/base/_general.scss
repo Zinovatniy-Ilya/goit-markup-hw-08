@@ -1,124 +1,124 @@
 // * {
-//     outline: 2px solid tomato;
-//   }
+//   outline: 2px solid tomato;
+// }
 body {
-    font-family: Roboto;
-    margin: 0px;
-    overflow-x: hidden;
+  font-family: Roboto;
+  margin: 0px;
+  overflow-x: hidden;
 }
 footer {
-    background-color: #2F303A;
+  background-color: #2f303a;
 }
 ul {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  list-style: none;
 }
-h1, h2, h3 {
-    margin: 0px;
+h1,
+h2,
+h3 {
+  margin: 0px;
 }
 img {
-    display: block;
-    width: 100%;
-    height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .link a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .container {
-    width: 100%;
-    // padding-left: 15px;
-    // padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    @include for-size(phone-only) {
-        width: 320px;
-    }
-    @include for-size(tablet-portrait) {
-        width: 480px;
-    }
-    @include for-size(tablet-landscape) {
-        width: 768px;
-    }
-    @include for-size(desktop) {
-        width: 1200px;
-    }
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  //   @include for-size(phone-only) {
+  //     width: 320px;
+  //   }
+  @include for-size(tablet-portrait) {
+    width: 480px;
+  }
+  @include for-size(tablet-landscape) {
+    width: 768px;
+  }
+  @include for-size(desktop) {
+    width: 1200px;
+  }
 }
-.section-title{
-    font-weight: 700;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    @include for-size(tablet-portrait) {
-        font-size: 28px;
-        line-height: 33px;
-    }
-    @include for-size(desktop) {
-        font-size: 36px;
-        line-height: 42px;
-    }
+.section-title {
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  @include for-size(tablet-portrait) {
+    font-size: 28px;
+    line-height: 33px;
+  }
+  @include for-size(desktop) {
+    font-size: 36px;
+    line-height: 42px;
+  }
 }
 .subtitle-text {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
 
-    color: var(--text-subtitle-color);
+  color: var(--text-subtitle-color);
 }
 .container-portfolio {
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 95px;
-    padding-top: 50px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 95px;
+  padding-top: 50px;
 
-    @include for-size(phone-only) {
-        width: 290px;
-    }
-    @include for-size(tablet-portrait) {
-        width: 450px;
-    }
-    @include for-size(tablet-landscape) {
-        width: 768px;
-    }
-    @include for-size(desktop) {
-        width: 1200px;
-    }
+  @include for-size(phone-only) {
+    width: 290px;
+  }
+  @include for-size(tablet-portrait) {
+    width: 450px;
+  }
+  @include for-size(tablet-landscape) {
+    width: 768px;
+  }
+  @include for-size(desktop) {
+    width: 1200px;
+  }
 }
 .comand {
-    background: #F5F4FA;
+  background: #f5f4fa;
 
-    padding-top: 95px;
-    padding-bottom: 95px;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 .project {
-    background-color: #FFFFFF;
-    padding-bottom: 95px;
+  background-color: #ffffff;
+  padding-bottom: 95px;
 
-    @include for-size(phone-only) {
-        display: none;
-    }
-    @include for-size(tablet-portrait) {
-        display: none;
-    }
-    @include for-size(desktop) {
-        display: flex;
-    }
+  @include for-size(phone-only) {
+    display: none;
+  }
+  @include for-size(tablet-portrait) {
+    display: none;
+  }
+  @include for-size(desktop) {
+    display: flex;
+  }
 }
 .icon-section {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 
-    padding-top: 95px;
-    padding-bottom: 95px;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 .costomer {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 
-    padding-top: 95px;
-    padding-bottom: 95px;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }

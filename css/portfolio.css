@@ -1758,7 +1758,7 @@ body {
 }
 
 footer {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 ul {
@@ -1767,7 +1767,9 @@ ul {
   list-style: none;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0px;
 }
 
@@ -1785,12 +1787,6 @@ img {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-}
-
-@media (max-width: 479px) {
-  .container {
-    width: 320px;
-  }
 }
 
 @media (min-width: 480px) {
@@ -1876,13 +1872,13 @@ img {
 }
 
 .comand {
-  background: #F5F4FA;
+  background: #f5f4fa;
   padding-top: 95px;
   padding-bottom: 95px;
 }
 
 .project {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding-bottom: 95px;
 }
 
@@ -1907,13 +1903,13 @@ img {
 }
 
 .icon-section {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding-top: 95px;
   padding-bottom: 95px;
 }
 
 .costomer {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding-top: 95px;
   padding-bottom: 95px;
 }

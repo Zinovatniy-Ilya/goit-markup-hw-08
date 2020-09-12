@@ -603,8 +603,8 @@
 
 .modal {
   width: 450px;
-  min-height: 610px;
-  background-color: #FFFFFF;
+  height: 610px;
+  background-color: #ffffff;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -621,7 +621,7 @@
 @media (min-width: 1200px) {
   .modal {
     width: 530px;
-    min-height: 580px;
+    height: 580px;
   }
 }
 
@@ -637,7 +637,7 @@
 }
 
 .modal-end:hover {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .icon-style .icon {
@@ -2030,6 +2030,10 @@
   letter-spacing: 0.03em;
 }
 
+* {
+  outline: 2px solid tomato;
+}
+
 body {
   font-family: Roboto;
   margin: 0px;
@@ -2037,7 +2041,7 @@ body {
 }
 
 footer {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 ul {
@@ -2046,7 +2050,9 @@ ul {
   list-style: none;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0px;
 }
 
@@ -2064,12 +2070,6 @@ img {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-}
-
-@media (max-width: 479px) {
-  .container {
-    width: 320px;
-  }
 }
 
 @media (min-width: 480px) {
@@ -2155,13 +2155,13 @@ img {
 }
 
 .comand {
-  background: #F5F4FA;
+  background: #f5f4fa;
   padding-top: 95px;
   padding-bottom: 95px;
 }
 
 .project {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding-bottom: 95px;
 }
 
@@ -2186,13 +2186,13 @@ img {
 }
 
 .icon-section {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding-top: 95px;
   padding-bottom: 95px;
 }
 
 .costomer {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding-top: 95px;
   padding-bottom: 95px;
 }
